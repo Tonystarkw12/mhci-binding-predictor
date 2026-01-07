@@ -20,34 +20,19 @@ wheels/
 .installed.cfg
 *.egg
 
-# PyTorch
-*.pth
-*.pt
+# PyTorch (保留models文件夹中的模型文件)
+# *.pth
+# *.pt
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# 数据文件
-data/
-
-# 训练日志
-training.log
-
 # Spec workflow
 .spec-workflow/
 
-# 模型文件
-models/*.pth
-models/*.pt
-
-# 结果文件
-results/*.png
-results/*.pdf
-results/*.csv
-results/*.txt
-
-# 日志文件
-logs/*.log
+# 数据文件（仅排除原始数据，保留处理后的数据）
+data/raw/
+data/*.csv
 
 # IDE
 .vscode/
