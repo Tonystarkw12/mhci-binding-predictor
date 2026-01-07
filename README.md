@@ -114,11 +114,12 @@ Prediction (batch_size, 1)
 
 | 指标 | 值 |
 |------|-----|
-| Accuracy | TBD |
-| Precision | TBD |
-| Recall | TBD |
-| F1 Score | TBD |
-| ROC AUC | TBD |
+| Accuracy | 80.81% |
+| ROC AUC | 0.8006 |
+| Precision | 0.3571 |
+| Recall | 0.1471 |
+| F1 Score | 0.2083 |
+| Specificity | 0.9451 |
 
 ### 可视化结果
 
