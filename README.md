@@ -280,9 +280,10 @@ mhci_binding_predictor/
 ## 📞 联系方式
 
 如有问题或建议，欢迎联系：
-- Email: 11910517@mail.sustech.edu.cn
+- Email: zhou-zh23@mails.tsinghua.edu.cn
 
 ---
 
 **最后更新**: 2025-01-07
+
 
