@@ -363,7 +363,7 @@ def main():
 
     # 执行处理流程
     processed_data = processor.process_pipeline(
-        input_file="hla_a0201_real_data.csv"
+        input_file="netmhcpan_hla_a0201.csv"
     )
 
     # 打印统计信息

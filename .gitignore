@@ -32,7 +32,11 @@ wheels/
 
 # 数据文件（仅排除原始数据，保留处理后的数据）
 data/raw/
-data/*.csv
+data/iedb_*.csv
+data/hla_a0201_real_data.csv
+
+# 保留 NetMHCpan 处理后的数据
+!data/netmhcpan_*.csv
 
 # IDE
 .vscode/
@@ -54,3 +58,11 @@ ENV/
 # 临时文件
 *.tmp
 *.bak
+*.log
+
+# NetMHCpan 原始数据（太大，不提交）
+NetMHCpan_train.tar.gz
+NetMHCpan_train/
+
+# CLAUDE.md 文件（Auto-generated）
+**/CLAUDE.md

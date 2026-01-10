@@ -5,36 +5,36 @@ MHC-I Binding Prediction Model - Evaluation Report
 
 1. Overall Performance
 ----------------------------------------------------------------------
-  Accuracy:          0.8081 (80.81%)
-  ROC AUC:           0.8006
-  Precision:         0.3571
-  Recall (Sensitivity): 0.1471
-  F1 Score:          0.2083
+  Accuracy:          0.8645 (86.45%)
+  ROC AUC:           0.9349
+  Precision:         0.9003
+  Recall (Sensitivity): 0.8998
+  F1 Score:          0.9000
 
 2. Confusion Matrix
 ----------------------------------------------------------------------
-  True Negatives:      155  (Correctly predicted Non-Binders)
-  False Positives:       9  (Incorrectly predicted as Binders)
-  False Negatives:      29  (Incorrectly predicted as Non-Binders)
-  True Positives:        5  (Correctly predicted Binders)
+  True Negatives:      660  (Correctly predicted Non-Binders)
+  False Positives:     175  (Incorrectly predicted as Binders)
+  False Negatives:     176  (Incorrectly predicted as Non-Binders)
+  True Positives:     1580  (Correctly predicted Binders)
 
 3. Classification Metrics
 ----------------------------------------------------------------------
-  Sensitivity (Recall):     0.1471
-  Specificity:              0.9451
-  Positive Predictive Value (Precision): 0.3571
-  Negative Predictive Value: 0.8424
+  Sensitivity (Recall):     0.8998
+  Specificity:              0.7904
+  Positive Predictive Value (Precision): 0.9003
+  Negative Predictive Value: 0.7895
 
 4. Classification Report
 ----------------------------------------------------------------------
               precision    recall  f1-score   support
 
-  Non-Binder     0.8424    0.9451    0.8908       164
-      Binder     0.3571    0.1471    0.2083        34
+  Non-Binder     0.7895    0.7904    0.7899       835
+      Binder     0.9003    0.8998    0.9000      1756
 
-    accuracy                         0.8081       198
-   macro avg     0.5998    0.5461    0.5496       198
-weighted avg     0.7591    0.8081    0.7736       198
+    accuracy                         0.8645      2591
+   macro avg     0.8449    0.8451    0.8450      2591
+weighted avg     0.8646    0.8645    0.8646      2591
 
 
 ======================================================================
